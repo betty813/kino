@@ -52,6 +52,8 @@
                     </select>
                 </div>
             </div>
+
+            {% for movie in movies %}
             
             <div class="row">
                 <!-- Movie cards would be dynamically loaded here -->
@@ -70,6 +72,8 @@
                 </div>
                 <!-- Repeat for other movies -->
             </div>
+
+            {% endfor %}
             
             <!-- Pagination -->
             <nav aria-label="Page navigation">
